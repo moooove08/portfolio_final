@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Habbitator — Vlad Kuzmenko</title>
+  <meta name="description" content="An iOS habit-building app where users choose three habits for the day, complete them, review calendar history and track progress/streaks." />
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Habbitator — iOS Case Study" />
+  <meta property="og:description" content="An iOS habit-building app where users choose three habits for the day, complete them, review calendar history and track progress/streaks." />
+  <meta property="og:image" content="../assets/projects/habbitator/cover.webp" />
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="case-page">
+  <div class="page-glow" aria-hidden="true"></div>
+  <header class="site-header case-header"><a class="brand" href="../index.html">&lt;Vlad <span>/&gt;</span></a><nav class="nav"><a href="../index.html#projects">Projects</a><a href="../index.html#contact">Contact</a></nav><button class="theme-toggle" type="button" aria-label="Toggle color theme">☾</button></header>
+  <main>
+    <section class="section-shell case-hero">
+      <div class="case-title">
+        <p class="eyebrow">Open-source UIKit project</p>
+        <h1>Habbitator</h1>
+        <h2>Habit tracking app with Core Data and MVVM</h2>
+        <p class="lead">An iOS habit-building app where users choose three habits for the day, complete them, review calendar history and track progress/streaks.</p>
+        <div class="hero-actions"><a class="btn" href="../index.html#projects">Back to projects</a><a class="btn primary" href="https://github.com/moooove08/daily-habbit-app" target="_blank" rel="noreferrer">Open GitHub</a></div>
+      </div>
+      <img class="case-cover" src="../assets/projects/habbitator/cover.webp" alt="Habbitator cover" />
+    </section>
+
+    <section class="section-shell case-meta">
+      <article><span>Role</span><strong>iOS Developer · Architecture · Local Persistence</strong></article>
+      <article><span>Category</span><strong>Productivity / Health</strong></article>
+      <article><span>Stack</span><strong>Swift 5, UIKit, Core Data, MVVM</strong></article>
+      <article><span>Source</span><strong>Public GitHub</strong></article>
+    </section>
+
+    <section class="section-shell">
+      
+      <div class="case-media">
+        <div class="video-frame">
+          <video src="../assets/projects/habbitator/demo.mp4" poster="../assets/projects/habbitator/cover.webp" controls playsinline muted preload="metadata"></video>
+        </div>
+        <div class="screen-row"><button class="screen-shot" data-full="../assets/projects/habbitator/screen-1.webp" aria-label="Open screenshot 1"><img src="../assets/projects/habbitator/screen-1.webp" alt="Habbitator screenshot 1" loading="lazy" /></button><button class="screen-shot" data-full="../assets/projects/habbitator/screen-2.webp" aria-label="Open screenshot 2"><img src="../assets/projects/habbitator/screen-2.webp" alt="Habbitator screenshot 2" loading="lazy" /></button><button class="screen-shot" data-full="../assets/projects/habbitator/screen-3.webp" aria-label="Open screenshot 3"><img src="../assets/projects/habbitator/screen-3.webp" alt="Habbitator screenshot 3" loading="lazy" /></button><button class="screen-shot" data-full="../assets/projects/habbitator/screen-4.webp" aria-label="Open screenshot 4"><img src="../assets/projects/habbitator/screen-4.webp" alt="Habbitator screenshot 4" loading="lazy" /></button><button class="screen-shot" data-full="../assets/projects/habbitator/screen-5.webp" aria-label="Open screenshot 5"><img src="../assets/projects/habbitator/screen-5.webp" alt="Habbitator screenshot 5" loading="lazy" /></button></div>
+      </div>
+    </section>
+
+    <section class="section-shell case-content-grid">
+      <article class="case-block"><p class="eyebrow">Product flow</p><h2>What the app demonstrates</h2><ul><li>Create three daily habits and keep or replace them on a new day</li><li>Mark tasks as completed and track successful-day streaks</li><li>Review progress and completion history in a calendar</li><li>Switch between multiple visual themes</li><li>Store habits and daily completion records locally with Core Data</li></ul></article>
+      <article class="case-block"><p class="eyebrow">Technical focus</p><h2>Implementation highlights</h2><ul><li>Split the app into App, Core, Domain, Data and Presentation layers</li><li>Controllers receive prepared screen data from ViewModels instead of reading Core Data directly</li><li>Repository protocol separates domain logic from persistence implementation</li><li>Demonstrates a stronger architecture than a purely screen-based demo</li></ul></article>
+    </section>
+
+    <section class="section-shell note-card">
+      <p class="eyebrow">Portfolio note</p>
+      <p>Public GitHub repository is available. The README describes Core Data storage, Clean Architecture + MVVM and UIKit implementation.</p>
+      <div class="tags"><span>Swift 5</span><span>UIKit</span><span>Core Data</span><span>MVVM</span><span>Clean Architecture</span><span>UserNotifications</span></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© <span id="year"></span> Vlad Kuzmenko</span><span><a href="../assets/cv/Vlad_Kuzmenko_iOS_Developer_CV.pdf" target="_blank" rel="noreferrer">Download CV</a></span></footer>
+  <div class="lightbox" aria-hidden="true"><button aria-label="Close screenshot">×</button><img alt="Project screenshot enlarged" /></div>
+  <script src="../script.js"></script>
+</body>
+</html>
